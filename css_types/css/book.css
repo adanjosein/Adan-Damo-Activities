@@ -1,0 +1,114 @@
+.bdy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3em;
+  color: darkslateblue;
+  text-shadow: 3px 3px 5px lightgray;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 1.2em;
+  color: #2e2e73;
+  text-shadow: 2px 2px 3px #f0f0f0;
+  margin: 5px 0;
+}
+
+.book {
+  margin-top: 30px;
+  width: 360px;
+  background: linear-gradient(to bottom right, #2e8bc0, #b1d4e0);
+  border: 4px outset #ffffff;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px gray;
+  padding: 20px;
+  position: relative;
+}
+
+.book > h1 {
+  color: #f9f9f9;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.bk {
+  background: linear-gradient(#ffa07a, #f5fffa);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.web {
+  color: #102542;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px #f3f3f3;
+  font-size: 1.5em;
+}
+
+.components {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.circle,
+.square,
+.oval,
+.rectangle {
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #6a0dad;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #3cb371;
+}
+
+.oval {
+  height: 50px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #ff4500;
+}
+
+.rectangle {
+  width: 70px;
+  height: 50px;
+  background-color: #4682b4;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 15px 25px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 3px solid white;
+  background-color: #939128;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
